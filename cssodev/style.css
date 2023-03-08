@@ -1,0 +1,89 @@
+#baslik{
+  color: red;
+  text-align: center;
+}
+#menu {
+ 
+  text-align:center;
+
+}
+#menu li{display:inline-block;
+  *display:inline;}
+#menu li {
+  text-align:center;
+
+}
+
+
+#menu li a {
+  display: block;
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+}
+#menu li a:hover:not(.active) {
+
+  background-color: #dabebe;
+}
+
+#anasayfa{
+  text-align: center;
+  color: rgb(183, 85, 153);
+}
+
+#aciklama{
+  text-align: center;
+}
+#ikincibaslik{
+  text-align: center;
+  color: #ad8888;
+}
+#altmenu {
+  display: flex;
+  justify-content: center;
+}
+#urunler{
+  color: #ad8888;
+text-align: center;
+}
+#urunlermenu{
+    display: flex;
+  justify-content: center;
+}
+#urunlerresim{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 200px;
+}
+#fiyat{
+  font-weight: bolder;
+
+}
+#hakkimizda{
+  text-align: center;
+  color: #ad8888;
+}
+#aciklamahak{
+  margin-left: 60px;
+}
+#vizyon{
+  color: #ad8888;
+  margin-left: 60px;
+}
+#misyon {
+  color: #ad8888;
+  margin-left: 60px;
+}
+#prgraf{
+  margin-left: 60px;
+
+}
+
+  .vr {
+    border-right: 3px solid #070707;
+    height: 400px;
+  }
